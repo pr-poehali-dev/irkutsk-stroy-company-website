@@ -62,7 +62,7 @@ const Index = () => {
           <Button className="bg-primary hover:bg-primary/90" asChild>
             <a href="tel:+79021769917">
               <Icon name="Phone" size={16} className="mr-2" />
-              Позвонить
+              Бесплатная консультация
             </a>
           </Button>
         </div>
@@ -236,37 +236,21 @@ const Index = () => {
               <div>
                 <Card className="p-8 h-full border-2">
                   <h3 className="text-2xl font-bold mb-6">Оставить заявку</h3>
-                  <form onSubmit={handleSubmit} className="space-y-4">
-                    <div>
-                      <Input
-                        placeholder="Ваше имя"
-                        value={formData.name}
-                        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                        required
-                      />
-                    </div>
-                    <div>
-                      <Input
-                        type="tel"
-                        placeholder="Телефон"
-                        value={formData.phone}
-                        onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                        required
-                      />
-                    </div>
-                    <div>
-                      <Textarea
-                        placeholder="Сообщение"
-                        value={formData.message}
-                        onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                        rows={4}
-                      />
-                    </div>
-                    <Button type="submit" className="w-full bg-gold text-black hover:bg-gold/90 text-lg py-6">
-                      <Icon name="Send" size={20} className="mr-2" />
-                      Отправить заявку
+                  <div className="space-y-6">
+                    <p className="text-gray-600 text-center">
+                      Свяжитесь с нами через WhatsApp для быстрой консультации и расчёта стоимости работ
+                    </p>
+                    <Button asChild className="w-full bg-gold text-black hover:bg-gold/90 text-lg py-6">
+                      <a href="https://wa.me/79021769917?text=Здравствуйте!%20Хочу%20оставить%20заявку" target="_blank" rel="noopener noreferrer">
+                        <Icon name="MessageCircle" size={20} className="mr-2" />
+                        Написать в WhatsApp
+                      </a>
                     </Button>
-                  </form>
+                    <div className="text-center text-sm text-gray-500">
+                      Или позвоните нам по телефону<br />
+                      <a href="tel:+79021769917" className="text-primary font-bold hover:underline">+7 (902) 176-99-17</a>
+                    </div>
+                  </div>
                 </Card>
               </div>
             </div>
