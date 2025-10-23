@@ -285,6 +285,7 @@ const Index = () => {
             <div className="text-center md:text-right">
               <p className="text-gray-400">© 2024 Иркутское Объединение Строителей</p>
               <p className="text-gray-400 text-sm mt-2">Качественный ремонт с гарантией</p>
+              <p className="text-gray-500 text-xs mt-2">Данный сайт носит информационно-справочный характер, и не является публичной офертой.</p>
             </div>
           </div>
         </div>
