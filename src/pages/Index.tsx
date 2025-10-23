@@ -213,14 +213,14 @@ const Index = () => {
                       <Icon name="MapPin" size={24} className="text-primary mt-1" />
                       <div>
                         <p className="font-bold">Адрес</p>
-                        <p className="text-gray-700">г. Иркутск, ул. Строителей, 1</p>
+                        <p className="text-gray-700">г. Иркутск, ул. Ржанова, 164</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-4">
                       <Icon name="Clock" size={24} className="text-primary mt-1" />
                       <div>
                         <p className="font-bold">Режим работы</p>
-                        <p className="text-gray-700">24/7 — работаем круглосуточно</p>
+                        <p className="text-gray-700">Ежедневно с 09:00 до 19:00</p>
                       </div>
                     </div>
                   </div>
