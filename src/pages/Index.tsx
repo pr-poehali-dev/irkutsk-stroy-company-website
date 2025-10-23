@@ -45,19 +45,19 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-200">
-        <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="flex items-center gap-3">
+        <div className="container mx-auto px-4 py-4 flex justify-between items-center gap-4">
+          <div className="flex items-center gap-3 flex-shrink-0">
             <img 
               src="https://cdn.poehali.dev/files/9f13e959-9d70-433d-a667-16c4cb566373.png" 
               alt="ИОС" 
-              className="h-16 md:h-20"
+              className="h-12 w-auto sm:h-16 md:h-20"
             />
           </div>
-          <nav className="flex gap-8">
-            <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">Главная</a>
-            <a href="#services" className="text-sm font-medium hover:text-primary transition-colors">Услуги и цены</a>
-            <a href="#portfolio" className="text-sm font-medium hover:text-primary transition-colors">Портфолио</a>
-            <a href="#contacts" className="text-sm font-medium hover:text-primary transition-colors">Контакты</a>
+          <nav className="hidden md:flex gap-8">
+            <a href="#about" className="text-sm font-medium hover:text-primary transition-colors whitespace-nowrap">Главная</a>
+            <a href="#services" className="text-sm font-medium hover:text-primary transition-colors whitespace-nowrap">Услуги и цены</a>
+            <a href="#portfolio" className="text-sm font-medium hover:text-primary transition-colors whitespace-nowrap">Портфолио</a>
+            <a href="#contacts" className="text-sm font-medium hover:text-primary transition-colors whitespace-nowrap">Контакты</a>
           </nav>
         </div>
       </header>
