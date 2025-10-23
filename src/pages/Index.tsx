@@ -84,9 +84,11 @@ const Index = () => {
                   Бесплатная консультация
                 </a>
               </Button>
-              <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10 text-lg px-8 py-6">
-                <Icon name="Calculator" size={20} className="mr-2" />
-                Рассчитать стоимость
+              <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10 text-lg px-8 py-6" asChild>
+                <a href="https://wa.me/79021769917?text=Здравствуйте!%20Хочу%20рассчитать%20стоимость%20ремонта" target="_blank" rel="noopener noreferrer">
+                  <Icon name="MessageCircle" size={20} className="mr-2" />
+                  Рассчитать стоимость
+                </a>
               </Button>
             </div>
           </div>
