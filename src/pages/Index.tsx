@@ -59,9 +59,11 @@ const Index = () => {
             <a href="#portfolio" className="text-sm font-medium hover:text-primary transition-colors">Портфолио</a>
             <a href="#contacts" className="text-sm font-medium hover:text-primary transition-colors">Контакты</a>
           </nav>
-          <Button className="bg-primary hover:bg-primary/90">
-            <Icon name="Phone" size={16} className="mr-2" />
-            Позвонить
+          <Button className="bg-primary hover:bg-primary/90" asChild>
+            <a href="tel:+79021769917">
+              <Icon name="Phone" size={16} className="mr-2" />
+              Позвонить
+            </a>
           </Button>
         </div>
       </header>
@@ -76,9 +78,11 @@ const Index = () => {
               Соблюдаем сроки. Работаем по договору. Любая форма оплаты.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-gold text-black hover:bg-gold/90 text-lg px-8 py-6">
-                <Icon name="Phone" size={20} className="mr-2" />
-                Бесплатная консультация
+              <Button size="lg" className="bg-gold text-black hover:bg-gold/90 text-lg px-8 py-6" asChild>
+                <a href="tel:+79021769917">
+                  <Icon name="Phone" size={20} className="mr-2" />
+                  Бесплатная консультация
+                </a>
               </Button>
               <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10 text-lg px-8 py-6">
                 <Icon name="Calculator" size={20} className="mr-2" />
