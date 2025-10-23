@@ -23,7 +23,7 @@ const Index = () => {
     { icon: 'FileText', title: 'Фиксированные цены', description: 'Прописаны в договоре' },
     { icon: 'Shield', title: 'Соблюдение СНиП и ГОСТ', description: 'Качество по стандартам' },
     { icon: 'BadgeCheck', title: 'Гарантия на работы', description: 'Уверенность в результате' },
-    { icon: 'CreditCard', title: 'Любая форма оплаты', description: 'Нал/безнал, рассрочка' }
+    { icon: 'CreditCard', title: 'Любая форма оплаты', description: 'Наличные и безналичный расчет' }
   ];
 
   const services = [
@@ -38,8 +38,11 @@ const Index = () => {
 
   const portfolio = [
     { image: 'https://cdn.poehali.dev/files/90f7fa91-f883-42de-936d-4c2a817f4efc.jpg', title: 'Премиум отделка ресторана' },
-    { image: 'https://cdn.poehali.dev/files/18c70a78-b7be-4bb4-a61f-6ee1a7ddce47.jpg', title: 'Дизайнерский ремонт холла' },
-    { image: 'https://cdn.poehali.dev/files/02f911cc-5a73-4d51-b66f-e3a875aeea9a.jpg', title: 'Роскошная отделка санузла' }
+    { image: 'https://cdn.poehali.dev/files/18c70a78-b7be-4bb4-a61f-6ee1a7ddce47.jpg', title: 'Дизайнерский проект зала' },
+    { image: 'https://cdn.poehali.dev/files/02f911cc-5a73-4d51-b66f-e3a875aeea9a.jpg', title: 'Роскошная отделка санузла' },
+    { image: 'https://cdn.poehali.dev/files/fca73d68-ea61-434a-ad66-e2c4fd9c8bbb.jpg', title: 'Современный дизайн кафе' },
+    { image: 'https://cdn.poehali.dev/files/e46be4d0-ec15-4254-9181-34aa9239c3e4.jpg', title: 'Элитная отделка барной зоны' },
+    { image: 'https://cdn.poehali.dev/files/8b0e954e-6273-4525-a8ef-fae9cb1a944a.jpg', title: 'Премиум интерьер санузла' }
   ];
 
   return (
@@ -56,7 +59,7 @@ const Index = () => {
           <nav className="hidden md:flex gap-8">
             <a href="#about" className="text-sm font-medium hover:text-primary transition-colors whitespace-nowrap">Главная</a>
             <a href="#services" className="text-sm font-medium hover:text-primary transition-colors whitespace-nowrap">Услуги и цены</a>
-            <a href="#portfolio" className="text-sm font-medium hover:text-primary transition-colors whitespace-nowrap">Портфолио</a>
+            <a href="#portfolio" className="text-sm font-medium hover:text-primary transition-colors whitespace-nowrap">Наши проекты</a>
             <a href="#contacts" className="text-sm font-medium hover:text-primary transition-colors whitespace-nowrap">Контакты</a>
           </nav>
         </div>
