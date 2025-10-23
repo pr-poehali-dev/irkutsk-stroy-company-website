@@ -53,18 +53,12 @@ const Index = () => {
               className="h-16 md:h-20"
             />
           </div>
-          <nav className="hidden md:flex gap-8">
+          <nav className="flex gap-8">
             <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">Главная</a>
             <a href="#services" className="text-sm font-medium hover:text-primary transition-colors">Услуги и цены</a>
             <a href="#portfolio" className="text-sm font-medium hover:text-primary transition-colors">Портфолио</a>
             <a href="#contacts" className="text-sm font-medium hover:text-primary transition-colors">Контакты</a>
           </nav>
-          <Button className="bg-primary hover:bg-primary/90" asChild>
-            <a href="tel:+79021769917">
-              <Icon name="Phone" size={16} className="mr-2" />
-              Бесплатная консультация
-            </a>
-          </Button>
         </div>
       </header>
 
