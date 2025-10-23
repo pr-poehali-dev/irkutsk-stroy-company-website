@@ -50,7 +50,7 @@ const Index = () => {
             <img 
               src="https://cdn.poehali.dev/files/9f13e959-9d70-433d-a667-16c4cb566373.png" 
               alt="ИОС" 
-              className="h-12"
+              className="h-16 md:h-20"
             />
           </div>
           <nav className="hidden md:flex gap-8">
@@ -279,7 +279,7 @@ const Index = () => {
               <img 
                 src="https://cdn.poehali.dev/files/9f13e959-9d70-433d-a667-16c4cb566373.png" 
                 alt="ИОС" 
-                className="h-16 brightness-0 invert"
+                className="h-20 md:h-24 brightness-0 invert"
               />
             </div>
             <div className="text-center md:text-right">
